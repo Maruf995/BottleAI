@@ -1,0 +1,36 @@
+
+---
+
+## ✅ `.gitignore` — исключения для Git
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# MacOS
+.DS_Store
+
+# Model weights (если решишь скачивать вручную)
+*.pt
+
+# Логи
+*.log
